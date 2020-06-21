@@ -1,0 +1,17 @@
+{
+  "name": "precourse_tests",
+  "version": "1.0.0",
+  "description": "Project created to run tests on students locals computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter"
+  },
+  "author": "Juan Pablo Paillet, Alejandro Villafañe",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-string": "^1.5.0",
+    "mocha": "^8.0.1",
+    "test-console": "^1.1.0"
+  }
+}
