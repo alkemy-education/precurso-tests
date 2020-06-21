@@ -1,6 +1,7 @@
 const expect = require("chai").expect;
 const path = require('path')
-const exercise = path.join(__dirname, 'variables', '1')
+const fileName = path.resolve(__dirname, '..', '..', 'exercises', 'variables', '1.js')
+const exercise = require(fileName)
 
 describe("Deberás declarar tres variables llamadas nombre, apellido y edad", () => {
     it("La variable nombre debe estar declarada", () => {
