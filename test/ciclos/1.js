@@ -1,7 +1,8 @@
 const chai = require("chai");
-chai.use(require('chai-string'));
+const path = require('path')
+const exercise = path.join(__dirname, 'ciclos', '1.js')
 
-const exercise = require("../../exercises/loops/loops-1");
+chai.use(require('chai-string'));
 
 const testDescription = `
 

@@ -2,7 +2,8 @@ const stdout = require("test-console").stdout;
 const chai = require("chai");
 chai.use(require("chai-string"));
 
-const exercise = require("../../exercises/functions/functions-1");
+const path = require('path')
+const exercise = path.join(__dirname, 'functions', '1.js')
 
 const testDescription = `
 Vamos a comenzar por lo más sencillo. 
