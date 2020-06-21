@@ -1,5 +1,5 @@
 {
-  "name": "precourse_tests",
+  "name": "precourse-tests",
   "version": "1.0.0",
   "description": "Project created to run tests on students locals computer",
   "main": "index.js",
