@@ -6,12 +6,18 @@
   "author": "Juan Pablo Paillet, Alejandro Villafañe",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "chai": "^4.2.0",
     "chai-string": "^1.5.0",
+    "chalk": "^4.1.0",
+    "command-exists": "^1.2.9",
+    "esprima": "^4.0.1",
     "mocha": "^8.0.1",
+    "pseudocode": "git+ssh://git@bitbucket.org/alezvi/pseudocode.git",
     "test-console": "^1.1.0"
   },
   "scripts": {
-    "test" : "node index"
+    "compile": "node bin/compile",
+    "test": "node bin/compile && mocha test/*/**.js"
   }
 }
