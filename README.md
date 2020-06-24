@@ -1,5 +1,11 @@
 # Tests para precurso
 
+## Descargar este repositorio
+
+```
+git clone https://github.com/alkemy-education/precurso-tests 
+```
+
 ## Instalación del entorno
 
 Es necesario tener Node.js instalado en el sistema operativo.
