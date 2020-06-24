@@ -37,12 +37,4 @@ comienzo
     retornar aux sumar a sumar b
 fin
 
-ciclo
-    inicio = 1
-    mientras inicio es menor que 10
-    inicio++
-comienzo
-    imprimir "el valor de la variable inicio es {inicio}"
-fin
-
 imprimir nombre
