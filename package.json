@@ -13,7 +13,7 @@
     "command-exists": "^1.2.9",
     "esprima": "^4.0.1",
     "mocha": "^8.0.1",
-    "pseudocode": "git+ssh://git@bitbucket.org/alezvi/pseudocode.git",
+    "pseudocode": "git+https://git@bitbucket.org/alezvi/pseudocode.git",
     "test-console": "^1.1.0"
   },
   "scripts": {
