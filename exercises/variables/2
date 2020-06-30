@@ -1,0 +1,12 @@
+// Ejercicio 1
+// Las variables están declaradas, sin embargo no tienen un valor asignado. Ahora deberás asignar a las variables creadas datos reales, como tu nombre, apellido y edad. 
+
+// > Importante: Tener en cuenta los tipos de datos. Nombre y apellido deberán ser del tipo String, y edad del tipo Number
+
+variable nombre
+variable apellido
+variable edad
+
+nombre = "Jorge"
+apellido = "Gomez"
+edad = 24

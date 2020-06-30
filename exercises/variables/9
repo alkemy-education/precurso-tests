@@ -1,0 +1,3 @@
+variable numero = 12
+resultado = numero * 6
+imprimir resultado
