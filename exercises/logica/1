@@ -15,6 +15,4 @@ fin
 
 */
 
-module.exports = {
-    result: 'Estoy aprendiendo'
-}
+variable resultado = "Estoy aprendiendo"
