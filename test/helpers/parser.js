@@ -1,7 +1,7 @@
 const {parseScript, Syntax} = require('esprima')
 
 module.exports = function(code) {
-    let parsed = parseScript(code, { comment: false })
+    let parsed = parseScript(code, { comment: false, tokens: true })
 
     // console.log(
     //     parsed.body[7].declarations[0].init.properties
@@ -67,5 +67,6 @@ module.exports = function(code) {
         declaresConstant,
         declaresFunction,
         getDeclaredVariables,
+         parsed
     }
 }
