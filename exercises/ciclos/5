@@ -1,0 +1,16 @@
+/*
+
+Partiendo de la variable estudiantes, con sus valores ya definidos, 
+deberás crear una nueva variable llamada totalDeEstudiantes, 
+que contenga el total de los elementos contenidos en el Array, 
+e imprimir en pantalla el mensaje: 
+"El total de estudiantes es: ", seguido del total de estudiantes
+
+*/
+
+variable estudiantes = ["Juan",	"Jorge", "Lucas"]
+
+
+variable totalDeEstudiantes = estudiantes.total()
+imprimir "El total de estudiantes es: " + totalDeEstudiantes
+

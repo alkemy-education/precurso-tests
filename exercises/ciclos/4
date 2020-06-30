@@ -1,0 +1,8 @@
+/*
+
+A la hora de determinar los datos de un Array, podemos ahorrar líneas de código inicializando el mismo con los datos requeridos.
+
+Siguiendo el ejercicio anterior, deberás declarar la variable estudiantes, y asignarle como valor un Array que contenga los nombre Juan, Jorge y Lucas.
+*/
+
+variable estudiantes = ["Juan",	"Jorge", "Lucas"]

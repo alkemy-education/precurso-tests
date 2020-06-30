@@ -14,9 +14,8 @@ Analizando el siguiente bloque de código
 ```
 ¿Cuántas veces se imprimirá la palabra "Hola"?
 
+(Para responder, deberás crear una variable llamada resultado y asignarle el valor correspondiente)
 */
 
-module.exports = {
-    result: 5
-}
+variable resultado = 5
 

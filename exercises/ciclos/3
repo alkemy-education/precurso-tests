@@ -1,0 +1,12 @@
+/*
+Tu siguiente desafío es trabajar con el nuevo tipo de variable que conocimos: Array.
+
+Disponemos de una variable ya creada, llamada estudiantes, que tiene como valor un array vacío.
+
+*/
+
+variable estudiantes = []
+
+estudiantes.agregar("Juan")
+estudiantes.agregar("Jorge")
+estudiantes.agregar("Lucas")
