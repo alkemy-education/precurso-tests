@@ -13,7 +13,7 @@ let variableEdad = script.declaresVariable('edad')
 
 describe("Deberás declarar tres variables llamadas nombre, apellido y edad", () => {
     it("La variable nombre debe estar declarada", () => {
-        expect(variableNombre).to.not.be.undefined
+        expect(variableNombre).to.not.be.false
     })
 
     it("La variable apellido debe estar declarada", () => {

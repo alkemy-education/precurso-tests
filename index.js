@@ -1,8 +1,3 @@
-// "test variables-1": "variables/var-1",
-// "test logic-1": "./node_modules/.bin/mocha test/logic/logic-1.js",
-// "test loops-1": "./node_modules/.bin/mocha test/loops/loops-1.js",
-// "test functions-1": "./node_modules/.bin/mocha test/functions/functions-1.js"
-
 const path = require('path')
 const fs = require('fs')
 const cmd = require('child_process')

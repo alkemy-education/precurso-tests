@@ -1,5 +1,6 @@
 node_modules
 *.txt
+.idea/
 
 # src folder is where compiled code is store
 # the content is updated after every test
