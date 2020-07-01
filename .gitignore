@@ -1,6 +1,7 @@
 node_modules
 *.txt
 .idea/
+package-lock.json
 
 # src folder is where compiled code is store
 # the content is updated after every test
