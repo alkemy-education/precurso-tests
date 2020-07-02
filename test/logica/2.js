@@ -1,12 +1,12 @@
 const chai = require("chai");
 const path = require('path');
 const stdout = require("test-console").stdout;
-const fileName = path.resolve(__dirname, '..', '..', 'src', 'logica', '1.js');
+const fileName = path.resolve(__dirname, '..', '..', 'src', 'logica', '2.js');
 chai.use(require('chai-string'));
 const rewire = require("rewire");
 const nodeExercise = rewire(fileName);
 
-const testDescription = `Evaluando resultados del ejercicio Lógica 1`
+const testDescription = `Evaluando resultados del ejercicio Lógica 2`
 
 
 describe(testDescription, () => {
@@ -15,7 +15,7 @@ describe(testDescription, () => {
     rewire(fileName);
     inspect.restore();
     chai.expect(inspect.output).to.have.lengthOf(1);
-    const stDoutMessageExpected = 'Estoy aprendiendo\n';
+    const stDoutMessageExpected = 'Estudiando. No molestar\n';
     chai.assert.deepEqual(inspect.output, [stDoutMessageExpected]);
   });
 });
