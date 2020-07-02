@@ -1,22 +1,18 @@
-/*
+// Ahora deberás crear un ciclo que se repita por cada uno de los estudiantes.
+// Es decir, por cada valor dentro del array contenido en la variable estudiantes.
+// En cada una de las repeticiones, deberá mostrar: "Hay un estudiante". 
+// Para comenzar a trabajar, te dejaremos dos variable ya creadas:
 
-Ahora deberás crear un ciclo que se repita por cada uno de los estudiantes, es decir, por cada valor dentro del array contenido en la variable estudiantes.
-
-En cada una de las repeticiones, deberá mostrar: "Hay un estudiante". Para comenzar a trabajar, te dejaremos dos variable ya creadas:
-
+// variable estudiantes = ["Juan",	"Jorge", "Lucas"]
+// variable totalDeEstudiantes = estudiantes.total()
 
 variable estudiantes = ["Juan",	"Jorge", "Lucas"]
 variable totalDeEstudiantes = estudiantes.total()
 
-
-*/
-
-	variable estudiantes = ["Juan",	"Jorge", "Lucas"]
-	variable totalDeEstudiantes = estudiantes.total()
-	variable inicio = 1
-	inicio es menor a totalDeEstudiantes
-	inicio++
-
-	comienzo
-		imprimir "Hay un estudiante"
-	fin
+ciclo
+variable inicio = 1
+inicio es menor a totalDeEstudiantes
+inicio++
+comienzo
+	imprimir "Hay un estudiante"
+fin
