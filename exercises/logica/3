@@ -8,7 +8,7 @@ Siguiendo el ejercicio anterior, si alguna de las condiciones no es verdadera, s
 variable estoyCursando = verdadero;
 variable esHoraDeEstudiar = falso;
 
-si (estoyCursando y ademas esHoraDeEstudiar)
+si es verdad que (estoyCursando y ademas esHoraDeEstudiar)
 	imprimir "Hora de estudiar"
 si no
 	imprimir "Hora de descansar"

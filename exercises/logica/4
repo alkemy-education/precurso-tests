@@ -12,7 +12,7 @@ Caso contrario, deberá imprimir el mensaje: "Hora de descansar"
 
 variable hora = 12
 
-si (hora es mayor a 8 y ademas hora es menor a 14)
+si es verdad que (hora es mayor a 8 y ademas hora es menor a 14)
 	imprimir "Hora de estudiar"
 si no
 	imprimir "Hora de descansar"

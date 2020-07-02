@@ -11,8 +11,7 @@ variable hayLimones = verdadero
 variable hayManzanas = verdadero
 variable hayPeras = falso
 
-si (hayLimones y ademas hayManzanas o hayPeras)
-comienzo
+si es verdad que (hayLimones y ademas hayManzanas o tambien hayPeras)
 	imprimir "A preparar!"
 si no
 	imprimir "La próxima!"

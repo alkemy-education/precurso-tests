@@ -6,7 +6,6 @@ Si la misma es igual a 10 o igual a 12, imprimir el mensaje "Comienzo del break"
 
 */
 
-si (hora es igual a 10 o ademas hora es igual a 12)
-comienzo
+si es verdad que (hora es igual a 10 o ademas hora es igual a 12)
 	imprimir "Comienzo del break"
 fin

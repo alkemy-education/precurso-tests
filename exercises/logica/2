@@ -6,7 +6,6 @@ Si ambas son verdaderas, deberá mostrar en pantalla el siguiente mensaje: "Estu
 
 */
 
-si (estoyCursando y ademas esHoraDeEstudiar)
-comienzo
+si es verdad que (estoyCursando y ademas esHoraDeEstudiar)
 	imprimir "Estudiando. No molestar"
 fin
