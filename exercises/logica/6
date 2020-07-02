@@ -1,0 +1,19 @@
+/*
+
+Vamos a ejercitar los outputs que mostrará el código, por lo que es útil tener a mano la tabla de la verdad.
+
+¿Qué debería imprimir el siguiente código?
+
+
+si (4 lt 2 y ademas 4 lt 6)
+	imprimir "Verdadero"
+si no
+	imprimir "Falso"
+fin
+
+Escribir el resultado como valor de la variable "resultado"
+
+*/
+
+variable resultado = "Falso"
+

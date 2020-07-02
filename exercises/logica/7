@@ -1,0 +1,24 @@
+/*
+
+Si leemos la tabla de la verdad, observaremos que hay muchas posibilidades a la hora de comparar posibilidades.
+
+¿Qué debería imprimir el siguiente código?
+
+```
+variable estoyEstudiando = verdadero
+variable horario = 4
+variable horarioDeBreak = 5
+variable esUnTemaInteresante = verdadero
+
+si (estoyEstudiando o esUnTemaInteresante y ademas horarioDeBreak no es igual a horario)
+	imprimir "Estudiemos"
+si no
+	imprimir "Descansemos"
+fin
+```
+
+Ingresar la respuesta dentro de la variable resultado
+
+*/
+
+variable resultado = "Estudiemos"

@@ -1,0 +1,25 @@
+/*
+Siguiendo la tabla de la verdad, ¿Qué debería imprimir el siguiente código?
+
+
+```
+variable hayLimones = verdadero
+variable hayManzanas = verdadero
+variable hayPeras = falso
+variable horarioActual = 5
+variable horarioDeCierre = 6
+
+
+si (hayLimones y ademas hayManzanas o hayPeras y ademas horarioActual es menor a horarioDeCierre)
+comienzo
+	imprimir "A preparar!"
+si no
+	imprimir "La próxima!"
+fin
+```
+
+Ingresar el resultado como valor de la variable "resultado"
+
+*/
+
+variable resultado = "A preparar"

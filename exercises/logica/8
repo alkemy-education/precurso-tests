@@ -1,0 +1,19 @@
+/*
+Vamos a preparar una ensalada de frutas, y, en el supermercado, comprobar los ingredientes.
+Para ello, debemos imprimir un mensaje según la disponibilidad de los mismos.
+Partiremos de las variables hayLimones, hayManzas y hayPeras, las cuales tendrán como valor un booleano.
+Si hay limones y ademas hay manzanas y peras, deberemos imprimir en pantalla: "A preparar!"
+Caso contrario, imprimiremos: "La próxima!"
+
+*/
+
+variable hayLimones = verdadero
+variable hayManzanas = verdadero
+variable hayPeras = falso
+
+si (hayLimones y ademas hayManzanas y ademas hayPeras)
+comienzo
+	imprimir "A preparar!"
+si no
+	imprimir "La próxima!"
+fin

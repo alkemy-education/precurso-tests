@@ -1,0 +1,15 @@
+/*
+
+siempre será la hora de estudiar o estaremos cursando, por lo que será necesario que podamos manejar esta posibilidad.
+
+Siguiendo el ejercicio anterior, si alguna de las condiciones no es verdadera, se deberá mostrar en pantalla: "Momento de descanso"
+*/
+
+variable estoyCursando = verdadero;
+variable esHoraDeEstudiar = falso;
+
+si (estoyCursando y ademas esHoraDeEstudiar)
+	imprimir "Hora de estudiar"
+si no
+	imprimir "Hora de descansar"
+fin

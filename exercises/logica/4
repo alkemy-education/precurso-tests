@@ -1,0 +1,19 @@
+/*
+
+Ahora, vamos a analizar los horarios de cursada. 
+
+Crearemos una variable **hora**, y le asignaremos un valor numérico positivo. 
+Deberá verificar la misma según dos condiciones: 
+La misma debe ser mayor a 8 y menor a 14. 
+En ese caso, deberá imprimir el mensaje "Hora de estudiar". 
+Caso contrario, deberá imprimir el mensaje: "Hora de descansar"
+
+*/
+
+variable hora = 12
+
+si (hora es mayor a 8 y ademas hora es menor a 14)
+	imprimir "Hora de estudiar"
+si no
+	imprimir "Hora de descansar"
+fin

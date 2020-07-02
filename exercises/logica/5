@@ -1,0 +1,12 @@
+/*
+
+Muchas veces, necesitaremos evaluar posibilidades que puedan admitir más de un valor válido. 
+En este caso, tu desafío será definir la variable **hora** y asignarle un valor numérico. 
+Si la misma es igual a 10 o igual a 12, imprimir el mensaje "Comienzo del break"
+
+*/
+
+si (hora es igual a 10 o ademas hora es igual a 12)
+comienzo
+	imprimir "Comienzo del break"
+fin

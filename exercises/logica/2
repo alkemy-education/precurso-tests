@@ -1,0 +1,12 @@
+/*
+
+Vamos a aumentar la complejidad. Tu objetivo ahora será crear un programa que analizará dos variables: estoyCursando y esHoraDeEstudiar. 
+
+Si ambas son verdaderas, deberá mostrar en pantalla el siguiente mensaje: "Estudiando. No molestar"
+
+*/
+
+si (estoyCursando y ademas esHoraDeEstudiar)
+comienzo
+	imprimir "Estudiando. No molestar"
+fin

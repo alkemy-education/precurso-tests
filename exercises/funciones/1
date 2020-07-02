@@ -8,8 +8,7 @@ y mostrar en pantalla "Bienvenido ", seguido del nombre y apellido
 
 */
 
-module.exports = {
-    saludar: function(nombre, apellido) {
-        return console.log('Bienvenido ' + nombre + " " + apellido)
-    }
-}
+funcion bienvenida(nombre, apellido)
+comienzo
+	imprimir "Bienvenido " + nombre + " " + apellido
+fin
