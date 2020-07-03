@@ -3,8 +3,8 @@ const { exec } = require('child_process');
 
 exec('npm run compile', (err) => {
     if (err) {
-      //some err occurred
        console.error(err);
+       console.error('Hubo un error compilando los ejercicios')
        return process.exit();
     } else {
         termUtils.showWelcomeMessage();

@@ -24,29 +24,15 @@ La herramienta para la ejecución de tests es Mocha, ejecutar el siguiente coman
 npm install mocha -g 
 ```
 
-## Completando ejercicios
 
-Dentro de la carpeta exercises, hay un archivo por cada ejercicio. Los mismos deben ser compilados para poder ser testeados, por ello, cuando se quieran ejecutar tests sobre los mismos, ejecutar
+## Levantar terminal interactivo
 
+Ejecutar el comando 
 ```
-npm run compile
+npm run start
 ```
+Para comenzar a ejecutar el terminal
 
 
-## Ejecución de tests 
-
-Para testear los ejercicios, utilizaremos herramienta Mocha ya creada.
-Para ello, ejecutar el comando
-
-```
-mocha test/unidad/numeroEjercicio
-```
-
-Por ejemplo
-
-```
-mocha test/variables/1
-mocha test/funciones/1
-```
 
 

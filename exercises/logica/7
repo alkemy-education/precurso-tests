@@ -5,10 +5,10 @@ Si leemos la tabla de la verdad, observaremos que hay muchas posibilidades a la 
 ¿Qué debería imprimir el siguiente código?
 
 ```
-variable estoyEstudiando = verdadero
+variable estoyEstudiando = true
 variable horario = 4
 variable horarioDeBreak = 5
-variable esUnTemaInteresante = verdadero
+variable esUnTemaInteresante = false
 
 si (estoyEstudiando o esUnTemaInteresante y ademas horarioDeBreak no es igual a horario)
 	imprimir "Estudiemos"

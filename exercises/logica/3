@@ -5,8 +5,8 @@ siempre será la hora de estudiar o estaremos cursando, por lo que será necesar
 Siguiendo el ejercicio anterior, si alguna de las condiciones no es verdadera, se deberá mostrar en pantalla: "Momento de descanso"
 */
 
-variable estoyCursando = verdadero;
-variable esHoraDeEstudiar = falso;
+variable estoyCursando = true
+variable esHoraDeEstudiar = false
 
 si es verdad que (estoyCursando y ademas esHoraDeEstudiar)
 	imprimir "Hora de estudiar"

@@ -31,8 +31,8 @@ module.exports = {
     },
     showContentGroupItems: function() {
         const self = this;
-        term.bgWhite.bold.blue( 'BIENVENIDO A ALKEMY CHALLENGE\n' ) ;
-        term.bgWhite.bold.blue( 'SELECCIONAR UNIDAD PARA EJECUTAR TESTS\n' ) ;
+        term.bold.blue( 'BIENVENIDO A ALKEMY CHALLENGE\n' ) ;
+        term.bold.blue( 'SELECCIONAR UNIDAD PARA EJECUTAR TESTS\n' ) ;
         var items = exercisesData.map((e) => e.terminalName)
         term.singleColumnMenu( items , function( error , response ) {
             if(error) {
