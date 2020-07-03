@@ -18,26 +18,35 @@ Posteriormente, instalar las dependencias necesarias ejecutando en el terminal
 npm install
 ```
 
+La herramienta para la ejecución de tests es Mocha, ejecutar el siguiente comando para instalarla de forma global. Para ello, ejecutar este comando por única vez.
+
+```
+npm install mocha -g 
+```
+
+## Completando ejercicios
+
+Dentro de la carpeta exercises, hay un archivo por cada ejercicio. Los mismos deben ser compilados para poder ser testeados, por ello, cuando se quieran ejecutar tests sobre los mismos, ejecutar
+
+```
+npm run compile
+```
+
+
 ## Ejecución de tests 
 
-Para ejecutar los tests, es necesario ejecutar el comando 
+Para testear los ejercicios, utilizaremos herramienta Mocha ya creada.
+Para ello, ejecutar el comando
 
 ```
-npm run test tema-numeroEjercicio
+mocha test/unidad/numeroEjercicio
 ```
 
-seguido del nombre del tema y el número del ejercicio, por ejemplo:
+Por ejemplo
 
 ```
-npm run test variables-1
+mocha test/variables/1
+mocha test/funciones/1
 ```
 
-ejecutará el test correspondiente al ejercicio 1 del tema "Variables"
-
-Los identificadores de cada tema son:
-
-- Variables: variables
-- Logica: logic
-- Ciclos: loops
-- Funciones: functions
 
