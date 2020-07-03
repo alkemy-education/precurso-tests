@@ -1,17 +1,10 @@
-const stdout = require("test-console").stdout;
 const chai = require("chai");
-chai.use(require("chai-string"));
-
 const path = require('path')
-const exercise = path.join(__dirname, 'functions', '1.js')
-
-const testDescription = `
-Vamos a comenzar por lo más sencillo. 
-Tu objetivo será crear una función llamada bienvenida para saludar al usuario luego de 
-ingresar al sistema. Deberá recibir como parámetros un nombre y un apellido, 
-y mostrar en pantalla "Bienvenido ", seguido del nombre y apellido 
-(Cuidado con los espacios entre nombre y apellido)
-`;
+const fileName = path.resolve(__dirname, '..', '..', 'src', 'funciones', '1.js')
+chai.use(require('chai-string'));
+const rewire = require("rewire");
+const nodeExercise = rewire(fileName)
+const testDescription = `Evaluando ejercicios Funciones 1 `;
 
 describe(testDescription, () => {
   it("El método debe devolver el output correcto", () => {

@@ -12,13 +12,16 @@
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "esprima": "^4.0.1",
+    "figlet": "^1.4.0",
     "mocha": "^8.0.1",
     "pseudocode": "git+https://git@bitbucket.org/alezvi/pseudocode.git",
     "rewire": "^5.0.0",
+    "terminal-kit": "^1.35.8",
     "test-console": "^1.1.0"
   },
   "scripts": {
     "compile": "node bin/compile",
-    "test": "node bin/compile && mocha test/*/**.js"
+    "test": "node bin/compile && mocha test/*/**.js",
+    "start": "node test/interactive"
   }
 }
