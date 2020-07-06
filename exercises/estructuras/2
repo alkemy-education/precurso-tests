@@ -1,0 +1,25 @@
+/*
+
+   Ahora, deberemos agregar a nuestra clase usuario una nueva propidad llamada temasAprendidos, que será un array de cadenas.
+   Además, un método llamado agregarTemaAprendido, que recibirá el nombre de un tema y lo agregará a la propiedad
+
+*/
+
+clase : Usuario
+	Propiedades
+		nombre
+		apellido
+		temasAprendidos
+
+	Metodos
+		saludar()
+      comienzo
+        imprimir "Hola " + this.nombre + " " + this.apellido
+      fin
+
+        agregarTemaAprendido(tema)
+        comienzo
+            this.temasAprendidos.agregar(tema)
+        fin
+
+fin

@@ -1,0 +1,23 @@
+/*
+    Aumentaremos la complejidad de la clase. Tu siguiente objetivo será crear un metodo.
+    
+*/
+
+clase : Usuario
+	Propiedades
+		nombre
+		apellido
+		temasAprendidos
+
+	Metodos
+		saludar()
+      comienzo
+        imprimir "Hola " + this.nombre + " " + this.apellido
+      fin
+
+        agregarTemaAprendido(tema)
+        comienzo
+            this.temasAprendidos.agregar(tema)
+        fin
+
+fin

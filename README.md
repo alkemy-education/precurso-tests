@@ -18,11 +18,6 @@ Posteriormente, instalar las dependencias necesarias ejecutando en el terminal
 npm install
 ```
 
-La herramienta para la ejecución de tests es Mocha, ejecutar el siguiente comando para instalarla de forma global. Para ello, ejecutar este comando por única vez.
-
-```
-npm install mocha -g 
-```
 
 
 ## Levantar terminal interactivo

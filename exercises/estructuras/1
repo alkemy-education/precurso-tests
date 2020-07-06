@@ -1,0 +1,24 @@
+/*
+Vamos a comenzar a trabajar con estructuras.
+Tu primer objetivo será crear una clase usuario, que deberá tener las siguientes propiedades
+nombre: string
+apellido: string
+
+Y un método llamado saludar, que deberá imprimir en pantalla: "Hola " seguido del nombre y apellido.
+Posteriormente, deberás crear una instancia de esta clase para un usuario con el nombre Jorge y el apellido Gomez
+
+*/
+
+clase : Usuario
+	Propiedades
+		nombre
+		apellido
+		
+	Metodos
+		saludar()
+			comienzo
+				imprimir "Hola " + propiedades.nombre + " " + propiedades.apellido
+			fin
+
+fin
+		
