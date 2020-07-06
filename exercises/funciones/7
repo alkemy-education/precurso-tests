@@ -1,0 +1,22 @@
+/*
+Continuando el método del ejercicio anterior, deberemos agregarle la posibilidad de aplicarle impuestos. 
+Para ello, el método calcularDescuento creado anteriormente deberá recibir un nuevo parámetro llamado sumarImpuestos, y, luego de aplicar los descuentos correspondientes, aplicarle un recargo del 21% sobre el valor final, e imprimirlo en pantalla anteponiéndole el símbolo de dolar ($resultado)
+Para que el funcionamiento sea óptimo, es posible crear ua variable que vaya modificando su valor a medida que va aplicándose la lógica del cálculo, como por ejemplo, montoAImprimir
+
+*/
+
+funcion calcularDescuento(montoTotal, sumarImpuestos) 
+comienzo
+	variable montoAImprimir = montoTotal
+	si (montoTotal es mayor o igual que 1000 y ademas montoTotal es menor que 5000)
+	montoAImprimir = montoTotal - montoTotal * 10 / 100
+	fin
+	si (montoTotal es mayor a 5000)
+	montoAImprimir = montoTotal - montoTotal * 20 / 100
+	fin
+	si(sumarImpuestos)
+	montoAImprimir = montoAImprimir + montoAImprimir * 21 / 100
+	fin
+	imprimir "$" + montoAImprimir
+
+fin

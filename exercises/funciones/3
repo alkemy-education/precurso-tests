@@ -1,0 +1,23 @@
+/*
+
+Vamos a comenzar a trabajar con los ámbitos. 
+Tu siguiente objetivo será refactorizar la función del ejercicio anterior para que, 
+en lugar de imprimir el mensaje directamente, 
+retorne el String que anteriormente imprimía como un valor.
+
+Deberás crear una variable llamada **respuesta**, 
+que tenga como valor la invocación del método bienvenida, 
+para que, una vez invocada, imprima su valor en pantalla.
+
+*/
+
+funcion bienvenida(nombre, apellido, esUsuarioActivo)
+comienzo
+	si (esUsuarioActivo)
+		retornar "Bienvenido " + nombre + " " + apellido
+	si no
+		retornar "No estás habilitado para ingresar"
+	fin
+fin
+variable respuesta = bienvenida("jorge", "gomez", verdadero)
+imprimir respuesta

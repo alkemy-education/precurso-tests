@@ -5,8 +5,8 @@ Vamos a aumentar la complejidad. Tu objetivo ahora será crear un programa que a
 Si ambas son verdaderas, deberá mostrar en pantalla el siguiente mensaje: "Estudiando. No molestar"
 
 */
-variable estoyCursando = true
-variable esHoraDeEstudiar = true
+variable estoyCursando = verdadero
+variable esHoraDeEstudiar = verdadero
 si es verdad que (estoyCursando y ademas esHoraDeEstudiar)
 	imprimir "Estudiando. No molestar"
 fin

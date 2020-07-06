@@ -1,0 +1,24 @@
+/*
+
+Tu siguiente desafío será crear un método llamado calcularCantidadDePasos, que deberá recibir como parámetro distanciaARecorrer, que será un número representando la cantidad de metros a recorrer, 
+y un segundo distanciaPorPaso, que deberá representar la cantidad de metros que se avanzan en cada paso.
+El método deberá imprimir en pantalla la cantidad de pasos necesarios para llegar a la distancia a recorrer.
+
+
+*/
+
+funcion calcularCantidadDePasos(distanciaARecorrer, distanciaPorPaso) 
+comienzo
+	variable cantidadPasos = 0
+    ciclo
+    variable inicio = 1
+	inicio es menor a distanciaARecorrer
+	inicio++
+	comienzo
+		 inicio = inicio + distanciaPorPaso
+        cantidadPasos++
+	fin
+	imprimir cantidadPasos
+
+fin
+

@@ -1,0 +1,18 @@
+/*
+Ahora vamos a agregar un poco más de complejidad a la función de ingreso. 
+El método deberá recibir como tercer parámetro un argumento llamado esUsuarioActivo, 
+que podrá ser verdadero o falso. Si el mismo es verdadero, 
+debe imprimir "Bienvenido ", seguido del nombre y apellido 
+(Cuidado con los espacios entre nombre y apellido).
+ Caso contrario, debe imprimir el mensaje: "No estás habilitado para ingresar"
+
+*/
+
+funcion bienvenida(nombre, apellido, esUsuarioActivo)
+comienzo
+	si (esUsuarioActivo)
+		imprimir "Bienvenido " + nombre + " " + apellido
+	si no
+		imprimir "No estás habilitado para ingresar"
+	fin
+fin

@@ -1,0 +1,34 @@
+/*
+
+
+Por último, vamos a crear un método para poder imprimir las tablas de multiplicar.
+El método deberá llamarse tablaMultiplicacion, y recibir un parametro llamado numeroACalcular.
+Verificará que el número recibido sea un valor entero entre 1 y 10
+Y debe imprimir en pantalla los valores de la tabla, de la siguiente forma:
+NUMEROACALCULAR "por" X "=" Y
+
+Donde NUMEROACALCULAR es el parámetro recibido
+X el numero por el que se multiplicará
+Y el resultado
+
+En el caso de que el valor recibido sea mayor a 10, no deberá realizar esta operación, e imprimir:
+"El valor debe ser un número menor a 10"
+
+*/
+
+funcion tablaMultiplicacion(numeroACalcular)
+comienzo
+
+	si (numeroACalcular es mayor a 10)
+	retornar imprimir "El valor debe ser un número menor a 10"
+	fin
+
+    ciclo
+    variable inicio = 1
+	inicio es menor a 11
+	inicio++
+	comienzo
+		 	imprimir numeroACalcular + " x " + inicio + " = " + numeroACalcular * inicio
+	fin
+
+fin

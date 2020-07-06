@@ -1,0 +1,21 @@
+/*
+Tu siguiente desafío será crear un método validador.
+El mismo se deberá llamar verificarOrden, y deberá recibir 3 parámetros, llamados numero1, numero2, y numero3.
+El mismo deberá validar los 3 numeros recibidos, y especificar si los mismos se encuentran ordenados de forma consecutiva. 
+En el caso de que los mismos se encuentren ordenados de forma consecutiva, imprimir en pantalla: 
+"Los números están ordenados correctamente".
+Caso contrario, imprimir: 
+"Los números no están ordenados correctamente"
+
+*/
+
+funcion verificarOrden(numero1, numero2, numero3) 
+comienzo
+
+	si (numero2 - 1 es igual a numero1 y ademas numero3 - 1 es igual a numero2)
+		imprimir "Los números están ordenados correctamente"
+	si no
+		imprimir "Los números no están ordenados correctamente"
+	fin
+	
+fin

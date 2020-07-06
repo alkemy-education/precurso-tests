@@ -1,0 +1,22 @@
+/*
+
+Un cliente quiere imprimir las promociones de sus productos de una forma más amigable.
+Para ello, debemos crear un método llamado mostrarPromocion que reciba tres parámetros.
+Deberán llamarse nombreProducto, precioProducto y calcularImpuestos.
+Debe imprimir en pantalla:
+
+"Aprovecha esta promoción: NOMBREPRODUCTO a solo $PRECIOPRODUCTO"
+
+Donde nombre y producto son los parámetros. El precio deberá anteponer el símbolo de dolar.
+Sin el parámetro calcularImpuestos es verdadero, el precio impreso debe tener un recargo del 21% de su valor.
+
+*/
+
+funcion mostrarPromocion(nombreProducto, precioProducto, calcularImpuestos) 
+comienzo
+	variable precioAImprimir = precioProducto
+	si(calcularImpuestos) 
+	precioAImprimir = precioProducto + precioProducto * 21 / 100
+	imprimir "Aprovecha esta promoción: " + nombreProducto + " a solo $ " + precioAImprimir
+fin
+fin

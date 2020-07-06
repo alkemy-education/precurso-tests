@@ -1,0 +1,25 @@
+/*
+Vamos a calcular los descuentos para las compras realizadas por un cliente. 
+Para ello crearemos un método calcularDescuento, que recibirá como parámetro montoTotal.
+Según el monto total de compra, el monto de descuento será mayor, siguiendo la siguiente lógica.
+Si el monto de compra es menor a 1000, no se aplicará descuento.
+Si el monto de compra es mayor o igual a 1000 y menor a 5000, el descuento será del 10% del total.
+Si el monto de compra es mayor o igual a 5000, el descuento será de un 20% sobre el total.
+Debe imprimir en pantalla el valor luego de la aplicación del descuento.
+
+*/
+
+funcion calcularDescuento(montoTotal) 
+comienzo
+
+	si (montoTotal es menor a 1000)
+	imprimir montoTotal
+	fin
+	si (montoTotal es mayor o igual que 1000 y ademas montoTotal es menor que 5000)
+	imprimir montoTotal - montoTotal * 10 / 100
+	fin
+	si (montoTotal es mayor a 5000)
+	imprimir montoTotal - montoTotal * 20 / 100
+	fin
+
+fin

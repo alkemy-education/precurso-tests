@@ -1,0 +1,21 @@
+/*
+Deberás crear un método llamado calcularExponencial, que reciba dos parámetros: numero y exponencial
+Deberá elevar el número recibido según su exponencial, e imprirmir en pantalla el mensaje:
+"El resultado de elevar el numero NUMERO a EXPONENCIAL es RESULTADO".
+Donde número y exponencial son los parámetros, y resultado el valor devuelto por la operación
+
+*/
+
+funcion calcularExponencial(numero, exponencial) 
+comienzo
+    variable resultado = numero
+    ciclo
+    variable inicio = 1
+	inicio es menor a exponencial
+	inicio++
+	comienzo
+		resultado = resultado * numero
+	fin
+	imprimir "El resultado de elevar el numero " + numero + " a " + exponencial + " es " + resultado
+fin
+
