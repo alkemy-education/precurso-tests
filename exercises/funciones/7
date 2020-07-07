@@ -1,6 +1,7 @@
 /*
 Continuando el método del ejercicio anterior, deberemos agregarle la posibilidad de aplicarle impuestos. 
-Para ello, el método calcularDescuento creado anteriormente deberá recibir un nuevo parámetro llamado sumarImpuestos, y, luego de aplicar los descuentos correspondientes, aplicarle un recargo del 21% sobre el valor final, e imprimirlo en pantalla anteponiéndole el símbolo de dolar ($resultado)
+Para ello, el método calcularDescuento creado anteriormente deberá recibir un nuevo parámetro llamado sumarImpuestos, y, luego de aplicar los descuentos correspondientes, aplicarle un recargo del 21% sobre el valor final, y retornarlo anteponiéndole el símbolo de dolar 
+(Es decir, el método debería retornar "$" seguido del resultado, sin espacios)
 Para que el funcionamiento sea óptimo, es posible crear ua variable que vaya modificando su valor a medida que va aplicándose la lógica del cálculo, como por ejemplo, montoAImprimir
 
 */
@@ -17,6 +18,5 @@ comienzo
 	si(sumarImpuestos)
 	montoAImprimir = montoAImprimir + montoAImprimir * 21 / 100
 	fin
-	imprimir "$" + montoAImprimir
-
+	retornar "$" + montoAImprimir
 fin

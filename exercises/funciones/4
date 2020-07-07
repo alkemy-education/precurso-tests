@@ -19,4 +19,9 @@ comienzo
 	precioAImprimir = precioProducto + precioProducto * 21 / 100
 	imprimir "Aprovecha esta promoción: " + nombreProducto + " a solo $ " + precioAImprimir
 fin
+si(!calcularImpuestos) 
+	precioAImprimir = precioProducto
+	imprimir "Aprovecha esta promoción: " + nombreProducto + " a solo $ " + precioAImprimir
+fin
+
 fin

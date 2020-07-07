@@ -2,7 +2,12 @@
 
 Tu siguiente desafío será crear un método llamado calcularCantidadDePasos, que deberá recibir como parámetro distanciaARecorrer, que será un número representando la cantidad de metros a recorrer, 
 y un segundo distanciaPorPaso, que deberá representar la cantidad de metros que se avanzan en cada paso.
-El método deberá imprimir en pantalla la cantidad de pasos necesarios para llegar a la distancia a recorrer.
+El método deberá imprimir en pantalla el siguiente mensaje:
+"A una media de X metros por paso, se deberán dar Y pasos para recorrer Z metros"
+Donde: 
+X será el parámetro distanciaPorPaso
+Y será el resultado del cálculo
+Z será la distancia total a recorrer
 
 
 */
@@ -18,7 +23,7 @@ comienzo
 		 inicio = inicio + distanciaPorPaso
         cantidadPasos++
 	fin
-	imprimir cantidadPasos
+	imprimir "A una media de " + distanciaPorPaso + " metros por paso, se deberán dar " + cantidadPasos + " pasos para recorrer " + distanciaARecorrer + " metros"
 
 fin
 

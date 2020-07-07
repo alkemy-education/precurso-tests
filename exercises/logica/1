@@ -10,7 +10,7 @@ Caso contrario, deberá imprimir: "Momento de descanso"
 
 */
 
-variable estoyAprendiendo = verdad
+variable estoyAprendiendo = verdadero
 
 si es verdad que (estoyAprendiendo)
 	imprimir "Estoy aprendiendo"
