@@ -1,19 +1,22 @@
 # Tests para precurso
 
+En el siguiente tutorial vamos a aprender cómo correr los tests para saber si los ejercicios que fuiste haciendo están correctamente resueltos. 
+
 ## Descargar este repositorio
 
-Ejecutar en la terminal
+Primero, descarguemos el respositorio escribiendo lo siguiente en la terminal. 
+
 ```
 git clone https://github.com/alkemy-education/precurso-tests 
 ```
 
 ## Instalación del entorno
 
-Es necesario tener Node.js instalado en el sistema operativo.
+Luego, instalemos el sistema operativo de Node.js
 
 Instalador disponible en: https://nodejs.org/es/
 
-Posteriormente, instalar las dependencias necesarias ejecutando en el terminal
+Posteriormente, instalemos las dependencias necesarias ejecutando en la terminal:
 
 ```
 npm install
@@ -22,11 +25,12 @@ npm install
 
 ## Levantar terminal interactivo
 
-Ejecutar el comando 
+Finalmente ejecutemos el siguiente comando para comenzar a ejecutar el terminal
+
 ```
 npm run start
 ```
-Para comenzar a ejecutar el terminal
+
 
 
 
