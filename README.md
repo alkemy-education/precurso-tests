@@ -2,6 +2,7 @@
 
 ## Descargar este repositorio
 
+Ejecutar en la terminal
 ```
 git clone https://github.com/alkemy-education/precurso-tests 
 ```
@@ -17,7 +18,6 @@ Posteriormente, instalar las dependencias necesarias ejecutando en el terminal
 ```
 npm install
 ```
-
 
 
 ## Levantar terminal interactivo
