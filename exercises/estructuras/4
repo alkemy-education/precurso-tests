@@ -11,10 +11,11 @@ Luego, se deberá crear una instancia llamada producto1, y asignarle un valor a 
 */
 
 clase : Producto
-    propiedades
+    Propiedades
         nombre
         precio
         categorias : []
 fin
 
 variable producto1 = nuevo Producto
+producto1.precio = 100
