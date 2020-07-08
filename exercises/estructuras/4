@@ -1,0 +1,20 @@
+/*
+
+Vamos a trabajar en un ecommerce, y necesitamos comenzar a definir las estructuras de datos que manejaremos.
+Para ello, creareos una clase llamada Producto, que podrá tener los siguientes atributos:
+nombre, del tipo String
+precio, del tipo Number
+categorias, que será un array de datos del tipo String
+Esta estructura no debe tener valores asignados inicialmente.
+Luego, se deberá crear una instancia llamada producto1, y asignarle un valor a estas propiedades
+
+*/
+
+clase : Producto
+    propiedades
+        nombre
+        precio
+        categorias : []
+fin
+
+variable producto1 = nuevo Producto

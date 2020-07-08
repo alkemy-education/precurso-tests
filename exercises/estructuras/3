@@ -1,13 +1,17 @@
 /*
-    Aumentaremos la complejidad de la clase. Tu siguiente objetivo será crear un metodo.
+    Continuaremos trabajando con la estructura.
+    El atributo temasAprendidos deberá contener ahora un array de strings con los temas aprendidos hasta el momento.
+    Deberas crear un método llamado sobreMi, que deberá imprimir el mensaje:
+    "Mi nombre es 'nombre' y aprendí X temas"
+    X será el total de items en el array de temas
     
 */
 
 clase : Usuario
 	Propiedades
-		nombre
-		apellido
-		temasAprendidos
+		nombre : "Juan" 
+		apellido : "Gonzales" 
+		temasAprendidos: ['Lógica', 'Ciclos']
 
 	Metodos
 		saludar()
@@ -15,9 +19,14 @@ clase : Usuario
         imprimir "Hola " + this.nombre + " " + this.apellido
       fin
 
-        agregarTemaAprendido(tema)
-        comienzo
-            this.temasAprendidos.agregar(tema)
-        fin
+      agregarTemaAprendido(tema)
+      comienzo
+          this.temasAprendidos.agregar(tema)
+      fin
 
-fin
+      sobreMi()
+      comienzo
+          imprimir "Mi nombre es " + propiedad.nombre + " y aprendí " + propiedad.temasAprendidos.total()
+      fin
+
+

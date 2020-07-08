@@ -20,5 +20,5 @@ clase : Usuario
 				imprimir "Hola " + propiedades.nombre + " " + propiedades.apellido
 			fin
 
-fin
-		
+
+	fin
