@@ -4,37 +4,5 @@
 // nombre, apellido y edad
 
 variable nombre
-variable edad = 13
-constante apellido = "ninguno"
-
-variable suma = 10 sumar 20
-variable resta = 20 restar 20
-variable mul = 10 multiplicar por 10
-variable div = 10 dividido por 2
-
-variable mayorQue = 10 es mayor que 10
-variable mayorA = 10 es mayor a 10
-variable noEsIgualQue = 10 no es igual que 10
-variable noEsIguala = 10 no es igual a 10
-variable menorQue = 10 es menor que 20
-variable menorA = 10 es menor a 20
-variable menorOIgualQue = 10 es menor o igual que 5
-variable menorOIgualA = 10 es menor o igual que 5
-variable mayorOIgualQue = 10 es mayor o igual que 5
-variable mayorOIgualA = 10 es mayor o igual que 5
-
-variable conAnd = 10 es mayor a 20 y ademas 20 es menor que 100
-
-si es verdad que (10 es mayor a 20)
-    imprimir "diez es mayor a veinte"
-si no
-    imprimir "diez es menor a veinte"
-fin
-
-funcion ejemplo(a,b)
-comienzo
-    variable aux = 1
-    retornar aux sumar a sumar b
-fin
-
-imprimir nombre
+variable apellido
+variable edad

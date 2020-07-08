@@ -1,0 +1,22 @@
+/*
+
+    Las matemáticas siempre están presentes a la hora de programar, ayudándonos a resolver problemas complejos.
+    Vamos a utilizar la regla de 3 simple aplicando los conceptos de variables:
+
+    Nuestro programa tarda 145 minutos en descargar un archivo de 1329 Mb, 
+    y queremos saber cuantos Mb descargó en ua hora (60 minutos)
+    Para ello, disponemos de 3 variables creadas:
+    minutosTotales
+    mbTotales
+    minutosACalcular
+
+    Deberás crear una nueva variable llamada resultado, que almacene la cantidad de Mb descargados en una hora
+    Para realizar el cálculo, deberás utilizar las variables ya provistas
+
+*/
+
+minutosTotales = 145
+mbTotales = 1329
+minutosACalcular = 60
+
+resultado = minutosACalcular * mbTotales / minutosTotales
