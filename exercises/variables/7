@@ -1,0 +1,12 @@
+/*
+    Tomando como punto de partida el siguiente bloque de código
+
+    variable = 29
+    imprimir edad
+
+    ¿Cuál es el elemento faltante para que el mismo funcione?
+*/
+
+
+    variable edad = 29
+    imprimir edad

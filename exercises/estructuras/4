@@ -18,4 +18,5 @@ clase : Producto
 fin
 
 variable producto1 = nuevo Producto
+
 producto1.precio = 100
