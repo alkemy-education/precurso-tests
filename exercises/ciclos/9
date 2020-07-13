@@ -1,0 +1,16 @@
+/*
+
+Tu siguiente desafío será imprimir en pantalla la tabla de multiplicar del 7.
+Para ello, deberás iterar 10 veces en el número, y, por cada repetición, mostrar en pantalla:
+7 x $multiplo = $resultado
+Donde $multiplo será el número de la iteración y $resultado el valor obtenido al multiplicar 7 por el múltiplo actual
+
+*/
+
+    ciclo
+    variable inicio = 1
+	inicio es menor a 11
+	inicio++
+	comienzo
+		 	imprimir  "7 x " + inicio + " = " + 7 * inicio
+	fin

@@ -10,7 +10,7 @@ variable estudiantes = ["Juan",	"Jorge", "Lucas"]
 variable totalDeEstudiantes = estudiantes.total()
 
 ciclo
-variable inicio = 1
+variable inicio = 0
 inicio es menor a totalDeEstudiantes
 inicio++
 comienzo

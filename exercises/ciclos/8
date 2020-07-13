@@ -1,0 +1,24 @@
+/*
+Continuando con la lógica del ejercicio anterior, deberás crear una variable llamada estudiantes.
+estudiantes deberá contener un array con 4 nombres: Juan, Jorge, Agustina y Adriana.
+Posteriormente, deberás imprimir en pantalla: "Hola " seguido del nombre de cada estudiante del array
+Sin embargo, si en la iteración el nombre actual es "Agustina", el ciclo deberá saltar la impresión de ese nombre
+
+*/
+
+variable estudiantes = ["Juan",	"Jorge", "Agustina", "Adriana"]
+variable totalDeEstudiantes = estudiantes.total()
+
+ciclo
+variable contador = 0
+contador es menor a totalDeEstudiantes
+contador++
+
+    comienzo
+    si es verdad que (estudiantes[contador] es igual a "Agustina")
+	 continue
+    fin
+
+	imprimir "Hola " + estudiantes[contador]
+fin
+

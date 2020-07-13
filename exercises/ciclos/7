@@ -1,0 +1,14 @@
+/*
+Continuando con la lógica del ejercicio anterior, deberás crear una variable llamada estudiantes, que deberá contener un array con 3 nombres: Juan, Jorge y Lucas.
+Posteriormente, deberás imprimir en pantalla: "Hola " seguido del nombre de cada estudiante del array
+*/
+variable estudiantes = ["Juan",	"Jorge", "Lucas"]
+variable totalDeEstudiantes = estudiantes.total()
+
+ciclo
+variable inicio = 0
+inicio es menor a totalDeEstudiantes
+inicio++
+comienzo
+	imprimir "Hola " + estudiantes[inicio]
+fin

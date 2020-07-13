@@ -1,0 +1,31 @@
+/*
+
+Vamos a aumentar la complejidad.
+Partiendo del ejercicio anterior, deberás mostrar la tabla de multiplicar del 7.
+Imprimiendo en cada iteración:
+
+7 x $multiplo = $resultado
+Donde $multiplo será el número de la iteración y $resultado el valor obtenido al multiplicar 7 por el múltiplo actual
+
+Sin embargo, solo deberás mostrar el resultado en pantalla si el mismo es par.
+
+*/
+
+    ciclo
+    variable inicio = 1
+	inicio es menor a 11
+	inicio++
+	comienzo
+
+        variable resultado = 7 * inicio
+
+
+    	si es verdad que (resultado % 2 es igual a 0) 
+        imprimir  "7 x " + inicio + " = " + resultado
+        si no
+        continuar
+        fin
+
+
+		 	
+	fin

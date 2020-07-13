@@ -1,0 +1,26 @@
+/*
+
+    A la hora de trabajar con múltiples operaciones numéricas, 
+    Es recomendado fragmentar cada operación para evitar resultados no deseados, debido a la jerarquía de operaciones matemáticas.
+
+    Por ejemplo, si disponemos de los siguientes elementos
+
+    1) 328 dividido 2 + 100
+    2) 23 por 40 + 89
+
+    Y queremos obtener el resultado de restar 2) con 1), el resultado no será el esperado (745), 
+    sino que obtendremos 945.
+
+    Tu desafío será solucionar este problema, ya que deberás mostrar en pantalla 
+    "El resultado es" + $resultado
+    Donde $resultado será el resultado de 2) menos 1)
+
+
+*/
+
+
+variable calculo1 = 328 / 2 + 100
+variable calculo2 = 23 * 40 + 89
+variable resultado = calculo2 - calculo1
+imprimir "El resultado es " + resultado
+
