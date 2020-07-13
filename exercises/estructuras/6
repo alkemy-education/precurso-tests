@@ -1,0 +1,32 @@
+/*
+
+Vamos a agregar un nuevo método a nuestra clase Producto, llamado listarCategorias
+El mismo deberá imprimir en pantalla cada una de las categorías del producto, una a la vez.
+Para ello, deberás crear una instancia de producto llamada producto1, asignarle sus propiedades, y agregar al menos 2 categorías
+
+*/
+
+clase : Producto
+    Propiedades
+        nombre
+        precio
+        categorias : []
+    Metodos
+
+        listarCategorias()
+            comienzo
+                ciclo
+                variable inicio = 0
+                inicio es menor a propiedad.categorias.total()
+                inicio++
+                comienzo
+                    imprimir propiedad.categorias[inicio]
+                fin
+            fin
+fin
+
+variable producto1 = nuevo Producto
+
+producto1.nombre = "Producto prueba"
+producto1.precio = 100
+producto1.categorias = ['Categoria 1', 'Categoría 2']

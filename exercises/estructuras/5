@@ -1,0 +1,25 @@
+/*
+
+Vamos a continuar trabajando con nuestro producto. Deberás crear la clase Producto, con sus propiedades nombre, precio y categorías.
+Posteriormente, deberás agregar un método llamado mostrarPrecio, que recibirá un parámetro del tipo boolean calcularImpuestos
+Este método deberá retornar (no imprimir) el valor del producto con un símbolo de dolar ($) al principio.
+Si el parámetro calcularImpuestos es verdadero, deberá mostrar el precio aumentando su valor en un 21%
+
+*/
+
+clase : Producto
+    Propiedades
+        nombre
+        precio
+        categorias : []
+    Metodos
+		mostrarPrecio(calcularImpuestos)
+      comienzo
+      variable precioCalculado = propiedad.precio
+            si es verdad que (calcularImpuestos)
+                precioCalculado = precioCalculado + (precioCalculado * 0.21)
+            fin
+        retornar "$" + precioCalculado
+      fin
+fin
+

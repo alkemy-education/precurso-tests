@@ -17,7 +17,7 @@ clase : Usuario
 	Metodos
 		saludar()
 			comienzo
-				imprimir "Hola " + propiedades.nombre + " " + propiedades.apellido
+				imprimir "Hola " + propiedad.nombre + " " + propiedad.apellido
 			fin
 
 

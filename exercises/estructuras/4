@@ -19,4 +19,6 @@ fin
 
 variable producto1 = nuevo Producto
 
+producto1.nombre = "Producto prueba"
 producto1.precio = 100
+producto1.categorias = ['Categoria 1']

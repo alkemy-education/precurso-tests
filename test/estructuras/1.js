@@ -15,17 +15,18 @@ describe(testDescription, () => {
     const user = new UserClass();
     expect(user).to.be.an('object');
   });
-  it("El método saludar debe devolver el mensaje correcto", () => {
-    const UserClass = nodeExercise.__get__("Usuario");
-    const user = new UserClass();
+ 
+
+  it("El metodo saludar debe funcionar correctamente", () => {
     const inspect = stdout.inspect();
+    const UserClass = nodeExercise.__get__("Usuario");
+    const user = new UserClass('Juan', 'Paillet');
     user.saludar()
     inspect.restore();
-    chai.expect(inspect.output).to.have.lengthOf(1);
     const stDoutMessageExpected = "Hola " + user.nombre + " " + user.apellido + "\n";
     chai.assert.deepEqual(inspect.output, [stDoutMessageExpected]);
-
   });
+
 
  
  

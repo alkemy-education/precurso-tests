@@ -1,0 +1,45 @@
+/*
+Vamos a continuar la lógica del ejercicio anterior, pero modificando el funcionamiento de estas clases a la inversa.
+Ahora, la clase Categoria deberá contener un método llamado agregarProducto, que deberá recibir una instancia de la clase Producto.
+Además, deberás crear un método llamado cantidadProductos, que deberá mostrar en pantalla la cantidad de productos asignados para la instancia de esa categoría.
+
+*/
+
+clase : Categoria
+
+    Propiedades
+        nombre
+        productos : []
+        
+    Metodos
+
+        agregarProducto(producto)
+            comienzo
+               propiedad.productos.agregar(producto)
+            fin
+
+        cantidadProductos()
+            comienzo
+                imprimir propiedad.productos.total
+            fin
+
+fin
+
+
+clase : Producto
+
+ Propiedades
+        nombre
+        precio
+
+fin
+
+variable producto1 = nuevo Producto
+producto1.nombre = "Producto prueba"
+
+variable categoria1 = nuevo Categoria
+categoria1.nombre = 'Categoría Prueba'
+
+categoria1.agregarProducto(producto1)
+
+

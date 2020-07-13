@@ -1,0 +1,42 @@
+/*
+
+Continuando con nuestra tienda, tu siguiente desafío será crear una nueva clase llamada Categoria. 
+La misma servirá para trabajar con el array de categorías de la clase Producto trabajada recientemente.
+Deberá tener una propiedad llamada nombre, del tipo string.
+Las instancias de la clase categoría serán añadidas a la propiedad "categorias" utilizadas anteriormente en la clase Producto.
+Para ello, deberás:
+1) Crear la clase Categoría e instanciarla.
+2) Crear la clase Producto, con las propiedades nombre y categorias
+3) Agregar a la clase Producto un método llamado agregarCategoria, que recibirá una instancia de Categoría y lo agregará a su array
+
+*/
+
+clase : Producto
+
+    Propiedades
+        nombre
+        precio
+        categorias : []
+        
+    Metodos
+
+        agregarCategoria(categoria)
+            comienzo
+               propiedad.categorias.agregar(categoria)
+            fin
+
+fin
+
+
+clase : Categoria
+
+    Propiedades
+        nombre
+fin
+
+variable categoria1 = nuevo Categoria
+categoria1.nombre = 'Categoría Prueba'
+
+producto1.nombre = "Producto prueba"
+producto1.precio = 100
+producto1.agregarCategoria(categoria1)

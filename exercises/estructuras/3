@@ -28,5 +28,5 @@ clase : Usuario
       comienzo
           imprimir "Mi nombre es " + propiedad.nombre + " y aprendí " + propiedad.temasAprendidos.total()
       fin
-
+fin
 
