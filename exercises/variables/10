@@ -1,0 +1,23 @@
+
+/*
+
+    Por último, vamos a crear un programa para calcular el perímetro de un rectángulo regular.
+    El mismo dispondrá de 2 variables: ladoA y ladoB.
+    Las mismas deberán tener como valor un número entero.
+    Luego, crearemos una variable resultado, que contendrá el resultado del cálculo del perímetro.
+    Por último, mostraremos en pantalla el siguiente mensaje:
+
+    "El perímetro de un rectángulo de $ladoA x $ladoB es de $resultado"
+
+    Donde $ladoA, $ladoB y $resultado serán las variables creadas anteriormente.
+
+
+*/
+
+variable ladoA = 21;
+variable ladoB = 23;
+
+variable sumatoria = ladoA + ladoB;
+variable resultado = sumatoria * 2;
+
+imprimir "El perímetro de un rectángulo de " + ladoA + " x " + ladoB + " es de " + resultado

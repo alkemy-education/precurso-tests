@@ -1,0 +1,23 @@
+
+/*
+
+    Vamos a realizar un cálculo matemático.
+
+    Crearemos un programa que calculará el área de un círculo, y posteriormente la mostrará en pantalla.
+
+    Para ello, deberás crear una variable llamada radioDelCirculo y asignarle un valor numérico.
+    Una constante llamada pi, que tendrá como valor 3.1416;
+
+    Y una variable llamada area, que contendrá el resultado de calcular el área en base al radio del círculo.
+
+    Posteriormente, deberás mostar en pantalla:
+    El area de un círculo de $radio es $area
+
+    Donde $radio será el valor de la variable radioDelCirculo y $area la variable area
+
+*/
+
+variable radioDelCirculo = 9
+constante pi = 3.14
+variable area = (radioDelCirculo * radioDelCirculo) * pi;
+imprimir "El area de un círculo de " + radioDelCirculo + " es " + area

@@ -4,7 +4,7 @@ module.exports = [
         terminalName: 'VARIABLES',
         folder: 'variables',
         statsIdentificator: 'variables',
-        exercisesAmmount: 8
+        exercisesAmmount: 10
     },
     {
         terminalName: 'LÓGICA',

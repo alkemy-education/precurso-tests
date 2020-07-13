@@ -4,7 +4,7 @@
     variable = 29
     imprimir El valor de edad es: edad
 
-    ¿Cuál es el elemento faltante para que el mismo funcione?
+    ¿Qué correcciones son necesarias para que la lógica funcione (Imprimir en pantalla "El valor de edad es: ", seguido de edad) ?
 */
 
 
