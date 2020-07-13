@@ -2,11 +2,11 @@
     Tomando como punto de partida el siguiente bloque de código
 
     variable = 29
-    imprimir edad
+    imprimir El valor de edad es: edad
 
     ¿Cuál es el elemento faltante para que el mismo funcione?
 */
 
 
     variable edad = 29
-    imprimir edad
+    imprimir "El valor de edad es: " + edad

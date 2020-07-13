@@ -5,7 +5,7 @@ En este caso, tu desafío será definir la variable **hora** y asignarle un valo
 Si la misma es igual a 10 o igual a 12, imprimir el mensaje "Comienzo del break"
 
 */
-
+variable hora = 6
 si es verdad que (hora es igual a 10 o ademas hora es igual a 12)
 	imprimir "Comienzo del break"
 fin

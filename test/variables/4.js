@@ -1,26 +1,33 @@
-const stdout = require("test-console").stdout;
+const expect = require("chai").expect;
+const assert = require('chai').assert;
 const path = require('path')
-
-const chai = require("chai");
-chai.use(require("chai-string"));
+const fs = require('fs')
 const fileName = path.resolve(__dirname, '..', '..', 'src', 'variables', '4.js')
 const rewire = require("rewire");
-const nodeExercise = rewire(fileName)
-const exercise = path.join(__dirname, 'functions', '1.js')
+const nodeExercise = rewire(fileName);
+const stdout = require("test-console").stdout;
 
-const testDescription = `
-Ahora que disponemos de nuestras variables, queremos mostrarlas en pantalla. 
+describe("Evaluando ejericio Variables 4", () => {
+  it("La variable nombre debe estar declarada", () => {
+    expect(nodeExercise.__get__('nombre')).to.not.be.undefined
+    expect(nodeExercise.__get__('nombre')).to.be.a('string')
+  })
 
-Deberás imprimir un mensaje con el siguiente contenido.
+  it("La variable apellido debe estar declarada", () => {
+    expect(nodeExercise.__get__('apellido')).to.not.be.undefined
+    expect(nodeExercise.__get__('apellido')).to.be.a('string')
 
-> Hola **nombre** **apellido**
-`;
+  })
 
-describe(testDescription, () => {
-  it("El método debe devolver el output correcto", () => {
+  it("Debe mostrar el mensaje correctamente", () => {
     const inspect = stdout.inspect();
-    nodeExercise.__get__('saludar')("Jorge", "Gomez");
+    const localScopeExercise = rewire(fileName);
     inspect.restore();
-    chai.assert.deepEqual(inspect.output, [ "Bienvenido Jorge Gomez\n" ]);
-  });
-});
+    expect(inspect.output).to.have.lengthOf(1);
+    const stDoutMessageExpected = "Hola " + localScopeExercise.__get__('nombre') + " " + localScopeExercise.__get__('apellido') + "\n";
+    assert.deepEqual(inspect.output, [stDoutMessageExpected]);
+  })
+
+
+
+})

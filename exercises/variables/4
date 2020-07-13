@@ -1,11 +1,14 @@
-// Ejercicio 1
-// Las variables están declaradas, sin embargo no tienen un valor asignado. Ahora deberás asignar a las variables creadas datos reales, como tu nombre, apellido y edad. 
+/*
+Vamos a aumentar la complejidad.
+Ahora deberás crear las variables nombre y apellido, y posteriormente imprimir en pantalla el siguiente mensaje:
+"Hola $NOMBRE $APELLIDO"
+Donde $NOMBRE y $APELLIDO son las variables creadas
 
-// > Importante: Tener en cuenta los tipos de datos. Nombre y apellido deberán ser del tipo String, y edad del tipo Number
+(Importante: Debe haber un espacio entre el nombre y el apellido mostrados en pantalla)
 
+*/
 
 variable nombre = "Jorge"
 variable apellido = "Gomez"
-variable edad = 24
 
-imprimir "hola " + nombre + " " + apellido
+imprimir "Hola " + nombre + " " + apellido

@@ -15,8 +15,8 @@
 
 */
 
-minutosTotales = 145
-mbTotales = 1329
-minutosACalcular = 60
+variable minutosTotales = 145
+variable mbTotales = 1329
+variable minutosACalcular = 60
 
-resultado = minutosACalcular * mbTotales / minutosTotales
+variable resultado = minutosACalcular * mbTotales / minutosTotales

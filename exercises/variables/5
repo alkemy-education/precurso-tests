@@ -2,9 +2,12 @@
 
 Ya que lo que buscamos es mostrar el nombre completo del usuario, vamos a hacer nuestro código más declarativo.
 
-Deberás crear una nueva variable llamada nombreCompleto, que contenga el valor de nombre y apellido, para mostrar en pantalla "Hola " seguido de la nueva variable creada.
+Deberás crear una nueva variable llamada nombreCompleto, que contenga el valor de nombre y apellido separados por un espacio,
+Y posteriormente mostrar en pantalla "Hola " seguido de la nueva variable creada.
 
 */
 
+variable nombre = "Jorge"
+variable apellido = "Gomez"
 variable nombreCompleto = nombre + " " + apellido
 imprimir "Hola " + nombreCompleto

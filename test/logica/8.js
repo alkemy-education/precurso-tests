@@ -41,9 +41,9 @@ describe(testDescription, () => {
     let stDoutMessageExpected;
 
     if (hayLimones && hayManzanas && hayPeras) {
-      stDoutMessageExpected = "A preparar\n";
+      stDoutMessageExpected = "A preparar!\n";
     }else{
-        stDoutMessageExpected = "La próxima\n";
+        stDoutMessageExpected = "La próxima!\n";
     }
     chai.assert.deepEqual(inspect.output, [stDoutMessageExpected]);
   });

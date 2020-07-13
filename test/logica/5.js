@@ -19,12 +19,16 @@ describe(testDescription, () => {
     const inspect = stdout.inspect();
     rewire(fileName);
     inspect.restore();
-    chai.expect(inspect.output).to.have.lengthOf(1);
     let stDoutMessageExpected;
 
     if (nodeExercise.__get__("hora") == 10 || nodeExercise.__get__("hora") == 12) {
+      chai.expect(inspect.output).to.have.lengthOf(1);
       stDoutMessageExpected = "Comienzo del break\n";
+      chai.assert.deepEqual(inspect.output, [stDoutMessageExpected]);
+
+    }else {
+      chai.expect(inspect.output).to.have.lengthOf(0);
+
     }
-    chai.assert.deepEqual(inspect.output, [stDoutMessageExpected]);
   });
 });
